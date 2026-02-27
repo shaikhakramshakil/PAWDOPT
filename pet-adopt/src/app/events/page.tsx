@@ -78,7 +78,7 @@ export default function EventsPage() {
             alt={upcomingEvents[0].title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+          <div className="absolute inset-0 bg-black/40" />
           <div className="absolute top-4 left-4">
             <span className="px-3 py-1 rounded-full bg-coral text-white text-sm font-bold">
               Featured

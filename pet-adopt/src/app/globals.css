@@ -64,13 +64,14 @@
     border-color: rgba(255, 100, 112, 0.65);
   }
 
-  /* Primary button - gradient pill */
+  /* Primary button - pastel coral */
   .btn-primary {
     @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full text-white font-semibold shadow-btn transition-all duration-200;
-    background: linear-gradient(135deg, #FF9AA2, #FFD6A5);
+    background-color: #FF9AA2;
   }
   .btn-primary:hover {
-    @apply scale-105 brightness-105;
+    @apply scale-105;
+    background-color: #FF8A94;
   }
 
   /* Secondary button - outline style */
@@ -108,9 +109,7 @@
   }
   .progress-bar-fill {
     @apply h-full rounded-full;
-    background: linear-gradient(90deg, #FF9AA2, #FFD6A5);
-    background-size: 200% 100%;
-    animation: var(--animate-shimmer);
+    background-color: #FF9AA2;
   }
 
   /* Nav link */
@@ -131,11 +130,11 @@
     @apply flex items-center gap-3 px-4 py-3 rounded-2xl text-textSec font-medium transition-all duration-200;
   }
   .sidebar-link:hover {
-    background: rgba(255, 154, 162, 0.1);
+    background: rgba(255, 154, 162, 0.15);
     @apply text-textPrimary;
   }
   .sidebar-link-active {
-    background: linear-gradient(135deg, #FF9AA2, #FFD6A5);
+    background-color: #FF9AA2;
     @apply text-white shadow-btn;
   }
 
@@ -147,20 +146,17 @@
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #FF9AA2, #FFD6A5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #FF9AA2;
   }
 
   .bg-card-lavender {
-    background: linear-gradient(135deg, #C7CEEA 0%, #E8DBFF 100%);
+    background-color: #C7CEEA;
   }
   .bg-card-peach {
-    background: linear-gradient(135deg, #FFD6A5 0%, #FF9AA2 100%);
+    background-color: #FFD6A5;
   }
   .bg-card-mint {
-    background: linear-gradient(135deg, #B5EAD7 0%, #C7F2E0 100%);
+    background-color: #B5EAD7;
   }
 
   /* Input field styling */
