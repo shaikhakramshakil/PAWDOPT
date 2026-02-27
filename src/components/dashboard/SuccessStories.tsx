@@ -4,7 +4,7 @@ const stories = [
   {
     id: 1,
     title: "Bella Found Her Forever Home!",
-    preview: "After 6 months in the shelter, Bella was adopted by the Smith family...",
+    preview: "After 6 months in the shelter, Bella was adopted by the Sharma family...",
     image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=200&h=200&fit=crop",
   },
   {

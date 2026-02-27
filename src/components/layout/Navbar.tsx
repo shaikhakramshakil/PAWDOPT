@@ -9,7 +9,7 @@ const navLinks = [
   { href: "/pets", label: "Adopt" },
   { href: "/foster", label: "Foster" },
   { href: "/stories", label: "Success Stories" },
-  { href: "/how-it-works", label: "How It Works" },
+  { href: "/how-it-works", label: "Adoption Guidelines" },
 ];
 
 export default function Navbar() {

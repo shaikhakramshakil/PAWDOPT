@@ -10,12 +10,12 @@ const sizes = ["Any Size", "Small", "Medium", "Large", "X-Large"];
 const genders = ["Any", "Male", "Female"];
 
 const allPets = [
-  { id: 1, name: "Buddy", breed: "Golden Retriever", type: "Dogs", age: "2 years", size: "Large", gender: "Male", location: "San Francisco, CA", image: "https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=400&fit=crop", tags: ["Friendly", "Vaccinated"], status: "Available" },
-  { id: 2, name: "Luna", breed: "Siamese Cat", type: "Cats", age: "1 year", size: "Small", gender: "Female", location: "Los Angeles, CA", image: "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=400&fit=crop", tags: ["Playful", "Spayed"], status: "Available" },
-  { id: 3, name: "Max", breed: "German Shepherd", type: "Dogs", age: "3 years", size: "Large", gender: "Male", location: "Seattle, WA", image: "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?w=400&h=400&fit=crop", tags: ["Trained", "Microchipped"], status: "Pending" },
-  { id: 4, name: "Whiskers", breed: "Persian Cat", type: "Cats", age: "4 years", size: "Medium", gender: "Male", location: "Portland, OR", image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=400&h=400&fit=crop", tags: ["Calm", "Indoor"], status: "Available" },
-  { id: 5, name: "Bella", breed: "Labrador", type: "Dogs", age: "1 year", size: "Large", gender: "Female", location: "Denver, CO", image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop", tags: ["Energetic", "Good with kids"], status: "Available" },
-  { id: 6, name: "Tweety", breed: "Canary", type: "Birds", age: "6 months", size: "Small", gender: "Male", location: "Austin, TX", image: "https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?w=400&h=400&fit=crop", tags: ["Singing", "Friendly"], status: "Available" },
+  { id: 1, name: "Buddy", breed: "Golden Retriever", type: "Dogs", age: "2 years", size: "Large", gender: "Male", location: "Mumbai, MH", image: "https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=400&fit=crop", tags: ["Friendly", "Vaccinated"], status: "Available" },
+  { id: 2, name: "Luna", breed: "Siamese Cat", type: "Cats", age: "1 year", size: "Small", gender: "Female", location: "New Delhi, DL", image: "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&h=400&fit=crop", tags: ["Playful", "Spayed"], status: "Available" },
+  { id: 3, name: "Max", breed: "German Shepherd", type: "Dogs", age: "3 years", size: "Large", gender: "Male", location: "Bengaluru, KA", image: "https://images.unsplash.com/photo-1589941013453-ec89f33b5e95?w=400&h=400&fit=crop", tags: ["Trained", "Microchipped"], status: "Pending" },
+  { id: 4, name: "Whiskers", breed: "Persian Cat", type: "Cats", age: "4 years", size: "Medium", gender: "Male", location: "Pune, MH", image: "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=400&h=400&fit=crop", tags: ["Calm", "Indoor"], status: "Available" },
+  { id: 5, name: "Bella", breed: "Labrador", type: "Dogs", age: "1 year", size: "Large", gender: "Female", location: "Hyderabad, TG", image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=400&fit=crop", tags: ["Energetic", "Good with kids"], status: "Available" },
+  { id: 6, name: "Tweety", breed: "Canary", type: "Birds", age: "6 months", size: "Small", gender: "Male", location: "Chennai, TN", image: "https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?w=400&h=400&fit=crop", tags: ["Singing", "Friendly"], status: "Available" },
 ];
 
 export default function PetsPage() {

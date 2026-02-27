@@ -9,6 +9,7 @@ import {
   MessageCircle,
   Calendar,
   Heart,
+  ClipboardList,
   Settings,
 } from "lucide-react";
 
@@ -19,6 +20,7 @@ const sidebarLinks = [
   { href: "/messages", label: "Messages", icon: MessageCircle },
   { href: "/events", label: "Events", icon: Calendar },
   { href: "/donate", label: "Donations", icon: Heart },
+  { href: "/adopt/1", label: "Adoption Request", icon: ClipboardList },
 ];
 
 export default function Sidebar() {

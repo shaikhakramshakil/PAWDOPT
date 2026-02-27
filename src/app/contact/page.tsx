@@ -7,24 +7,24 @@ const shelters = [
   {
     id: 1,
     name: "Paws & Hearts Rescue",
-    address: "123 Pet Lane, San Francisco, CA 94102",
-    phone: "(415) 555-0123",
+    address: "12, MG Road, Andheri West, Mumbai, MH 400058",
+    phone: "+91 22 2634 5678",
     email: "adopt@pawshearts.org",
     hours: "Mon-Sat 10am-6pm, Sun 12pm-5pm",
   },
   {
     id: 2,
     name: "Happy Tails Shelter",
-    address: "456 Bark Avenue, Los Angeles, CA 90001",
-    phone: "(213) 555-0456",
+    address: "45, Connaught Place, New Delhi, DL 110001",
+    phone: "+91 11 2345 6789",
     email: "info@happytails.org",
     hours: "Mon-Fri 9am-5pm, Sat 10am-4pm",
   },
   {
     id: 3,
     name: "Furry Friends Foundation",
-    address: "789 Meow Street, Seattle, WA 98101",
-    phone: "(206) 555-0789",
+    address: "78, Indiranagar, 100 Feet Road, Bengaluru, KA 560038",
+    phone: "+91 80 4567 8901",
     email: "hello@furryfriends.org",
     hours: "Tue-Sun 11am-7pm",
   },
@@ -204,11 +204,11 @@ export default function ContactPage() {
           If you&apos;ve found a stray animal or need immediate assistance, please call our 24/7 hotline.
         </p>
         <a
-          href="tel:1-800-PETS-911"
+          href="tel:+911800-111-565"
           className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-coral font-bold shadow-btn hover:scale-105 transition-transform"
         >
           <Phone className="w-5 h-5" />
-          1-800-PETS-911
+          1800-111-565 (Animal Helpline)
         </a>
       </div>
     </div>

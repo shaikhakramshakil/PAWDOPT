@@ -9,9 +9,9 @@ const pet = {
   age: "2 years",
   gender: "Male",
   size: "Large",
-  weight: "65 lbs",
+  weight: "30 kg",
   color: "Golden",
-  location: "San Francisco, CA",
+  location: "Mumbai, MH",
   listedDate: "Jan 15, 2026",
   adoptionFee: 5000,
   status: "Available",
@@ -33,15 +33,15 @@ const pet = {
     cats: false,
     apartment: false,
   },
-  story: `Buddy is a lovable Golden Retriever who was found wandering the streets of San Francisco. Despite his rough start, he has the sweetest temperament and loves everyone he meets!
+  story: `Buddy is a lovable Golden Retriever who was found wandering the streets of Mumbai. Despite his rough start, he has the sweetest temperament and loves everyone he meets!
 
-He's fully housetrained, knows basic commands (sit, stay, come), and walks great on a leash. Buddy loves playing fetch, going on hikes, and cuddling on the couch.
+He's fully housetrained, knows basic commands (sit, stay, come), and walks great on a leash. Buddy loves playing fetch, going on walks, and cuddling on the couch.
 
 He would do best in a home with a yard where he can run and play. He gets along wonderfully with other dogs but tends to chase cats.`,
   shelter: {
     name: "Paws & Hearts Rescue",
-    address: "123 Pet Lane, San Francisco, CA 94102",
-    phone: "(415) 555-0123",
+    address: "12, MG Road, Andheri West, Mumbai, MH 400058",
+    phone: "+91 22 2634 5678",
     email: "adopt@pawshearts.org",
     hours: "Mon-Sat 10am-6pm, Sun 12pm-5pm",
   },
