@@ -102,37 +102,46 @@ export default function PetsPage() {
           </div>
 
           {/* Age */}
-          <select
-            value={selectedAge}
-            onChange={(e) => setSelectedAge(e.target.value)}
-            className="px-4 py-2 rounded-full bg-lavender/20 text-sm text-textSec outline-none cursor-pointer"
-          >
-            {ages.map((age) => (
-              <option key={age} value={age}>{age}</option>
-            ))}
-          </select>
+          <div className="relative">
+            <select
+              value={selectedAge}
+              onChange={(e) => setSelectedAge(e.target.value)}
+              className="appearance-none pl-4 pr-10 py-2.5 rounded-full bg-white border-2 border-coral/20 text-sm font-medium text-textPrimary outline-none cursor-pointer hover:border-coral/40 focus:border-coral focus:ring-2 focus:ring-coral/15 transition-all shadow-sm"
+            >
+              {ages.map((age) => (
+                <option key={age} value={age}>{age}</option>
+              ))}
+            </select>
+            <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-coral">▾</span>
+          </div>
 
           {/* Size */}
-          <select
-            value={selectedSize}
-            onChange={(e) => setSelectedSize(e.target.value)}
-            className="px-4 py-2 rounded-full bg-lavender/20 text-sm text-textSec outline-none cursor-pointer"
-          >
-            {sizes.map((size) => (
-              <option key={size} value={size}>{size}</option>
-            ))}
-          </select>
+          <div className="relative">
+            <select
+              value={selectedSize}
+              onChange={(e) => setSelectedSize(e.target.value)}
+              className="appearance-none pl-4 pr-10 py-2.5 rounded-full bg-white border-2 border-coral/20 text-sm font-medium text-textPrimary outline-none cursor-pointer hover:border-coral/40 focus:border-coral focus:ring-2 focus:ring-coral/15 transition-all shadow-sm"
+            >
+              {sizes.map((size) => (
+                <option key={size} value={size}>{size}</option>
+              ))}
+            </select>
+            <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-coral">▾</span>
+          </div>
 
           {/* Gender */}
-          <select
-            value={selectedGender}
-            onChange={(e) => setSelectedGender(e.target.value)}
-            className="px-4 py-2 rounded-full bg-lavender/20 text-sm text-textSec outline-none cursor-pointer"
-          >
-            {genders.map((g) => (
-              <option key={g} value={g}>{g}</option>
-            ))}
-          </select>
+          <div className="relative">
+            <select
+              value={selectedGender}
+              onChange={(e) => setSelectedGender(e.target.value)}
+              className="appearance-none pl-4 pr-10 py-2.5 rounded-full bg-white border-2 border-coral/20 text-sm font-medium text-textPrimary outline-none cursor-pointer hover:border-coral/40 focus:border-coral focus:ring-2 focus:ring-coral/15 transition-all shadow-sm"
+            >
+              {genders.map((g) => (
+                <option key={g} value={g}>{g}</option>
+              ))}
+            </select>
+            <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-coral">▾</span>
+          </div>
 
           {/* Active filters */}
           {(selectedType !== "All" || selectedAge !== "Any Age" || selectedSize !== "Any Size" || selectedGender !== "Any") && (

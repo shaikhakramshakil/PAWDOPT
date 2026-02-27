@@ -5,7 +5,7 @@ import { Heart, Gift, Utensils, Home, Stethoscope, Sparkles, CheckCircle } from 
 const donationTiers = [
   {
     id: 1,
-    amount: 25,
+    amount: 500,
     title: "Kibble Buddy",
     description: "Provides a week of nutritious meals for a shelter pet",
     icon: Utensils,
@@ -14,7 +14,7 @@ const donationTiers = [
   },
   {
     id: 2,
-    amount: 50,
+    amount: 1000,
     title: "Comfort Provider",
     description: "Supplies warm bedding and toys for anxious animals",
     icon: Home,
@@ -24,7 +24,7 @@ const donationTiers = [
   },
   {
     id: 3,
-    amount: 100,
+    amount: 2500,
     title: "Health Hero",
     description: "Covers vaccinations and basic medical care",
     icon: Stethoscope,
@@ -33,7 +33,7 @@ const donationTiers = [
   },
   {
     id: 4,
-    amount: 250,
+    amount: 5000,
     title: "Rescue Champion",
     description: "Helps rescue and rehabilitate neglected animals",
     icon: Heart,
@@ -103,7 +103,7 @@ export default function DonatePage() {
                   <Icon className={`w-8 h-8 ${tier.iconColor}`} />
                 </div>
 
-                <div className="text-3xl font-bold text-textPrimary mb-1">${tier.amount}</div>
+                <div className="text-3xl font-bold text-textPrimary mb-1">₹{tier.amount.toLocaleString('en-IN')}</div>
                 <h3 className="font-bold text-coral mb-2">{tier.title}</h3>
                 <p className="text-textSec text-sm mb-4">{tier.description}</p>
 
@@ -112,7 +112,7 @@ export default function DonatePage() {
                     ? "bg-coral text-white shadow-btn hover:scale-105"
                     : "bg-coral/10 text-coral hover:bg-coral hover:text-white"
                 }`}>
-                  Donate ${tier.amount}
+                  Donate ₹{tier.amount.toLocaleString('en-IN')}
                 </button>
               </div>
             );
@@ -129,7 +129,7 @@ export default function DonatePage() {
         
         <div className="flex flex-col sm:flex-row gap-4 items-center">
           <div className="relative flex-1 w-full">
-            <span className="absolute left-4 top-1/2 -translate-y-1/2 text-2xl text-textSec font-bold">$</span>
+            <span className="absolute left-4 top-1/2 -translate-y-1/2 text-2xl text-textSec font-bold">₹</span>
             <input
               type="number"
               placeholder="Enter amount"
@@ -142,12 +142,12 @@ export default function DonatePage() {
         </div>
 
         <div className="flex flex-wrap gap-2 mt-4">
-          {[10, 35, 75, 150, 500].map((amount) => (
+          {[250, 750, 1500, 3000, 10000].map((amount) => (
             <button
               key={amount}
               className="px-4 py-2 rounded-full border-2 border-coral/20 text-textSec hover:border-coral hover:text-coral transition-colors font-semibold"
             >
-              ${amount}
+              ₹{amount.toLocaleString('en-IN')}
             </button>
           ))}
         </div>
