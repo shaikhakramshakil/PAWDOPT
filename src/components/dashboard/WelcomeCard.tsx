@@ -12,25 +12,25 @@ export default function WelcomeCard() {
 
         <div>
           <h1 className="text-2xl font-bold text-textPrimary">
-            Welcome back, Sarah 🐶
+            Welcome to Pawdopt 🐶
           </h1>
           <p className="text-textSec mt-1">
-            Ready to find your new best friend?
+            India&apos;s trusted pet adoption platform — find your new best friend today!
           </p>
 
           {/* Stat pills */}
           <div className="flex flex-wrap gap-2 mt-4">
-            <span className="badge badge-mint">❤️ 5 Saved Pets</span>
-            <span className="badge badge-lavender">📝 2 Applications</span>
-            <span className="badge bg-success/30 text-green-700">✓ Approved</span>
-            <span className="badge bg-warning/30 text-amber-700">🐕 Dogs</span>
+            <span className="badge badge-mint">🐾 1,248 Pets Listed</span>
+            <span className="badge badge-lavender">🏠 50+ Shelters</span>
+            <span className="badge bg-success/30 text-green-700">✓ 892 Adopted</span>
+            <span className="badge bg-warning/30 text-amber-700">📍 Pan India</span>
           </div>
         </div>
       </div>
 
       {/* Right side */}
-      <Link href="/settings" className="btn-secondary whitespace-nowrap">
-        Edit Preferences
+      <Link href="/pets" className="btn-primary whitespace-nowrap">
+        🐾 Browse Pets
       </Link>
     </div>
   );

@@ -61,9 +61,12 @@ export default function AdoptionFormPage() {
     <div className="max-w-3xl mx-auto space-y-8">
       {/* Header */}
       <div className="text-center">
+        <span className="inline-block px-4 py-1 rounded-full bg-coral/10 text-coral font-semibold text-sm mb-3">
+          Core Feature
+        </span>
         <h1 className="text-2xl font-bold text-textPrimary">🐾 Adoption Application</h1>
         <p className="text-textSec text-sm mt-1">
-          Complete the form below to start your adoption journey
+          Complete the form below to start your adoption journey — we review applications within 2-3 days
         </p>
       </div>
 

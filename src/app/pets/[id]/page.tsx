@@ -52,6 +52,8 @@ export default function PetDetailPage() {
     <div className="space-y-8">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-sm text-textSec">
+        <Link href="/" className="hover:text-coral">Home</Link>
+        <span>/</span>
         <Link href="/pets" className="hover:text-coral">Browse Pets</Link>
         <span>/</span>
         <span className="text-textPrimary font-medium">{pet.name}</span>

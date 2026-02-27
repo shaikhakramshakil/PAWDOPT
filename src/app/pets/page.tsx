@@ -39,7 +39,7 @@ export default function PetsPage() {
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h1 className="text-2xl font-bold text-textPrimary">🐾 Browse Pets</h1>
-          <p className="text-textSec text-sm">Find your perfect companion</p>
+          <p className="text-textSec text-sm">Search and filter from 1,200+ pets across India to find your perfect companion</p>
         </div>
 
         <div className="flex items-center gap-3">
@@ -185,7 +185,19 @@ export default function PetsPage() {
         <div className="card text-center py-12">
           <span className="text-6xl mb-4 block">🐾</span>
           <h3 className="text-lg font-semibold text-textPrimary">No pets found</h3>
-          <p className="text-textSec text-sm">Try adjusting your filters</p>
+          <p className="text-textSec text-sm mb-4">Try adjusting your filters</p>
+          <button
+            onClick={() => {
+              setSelectedType("All");
+              setSelectedAge("Any Age");
+              setSelectedSize("Any Size");
+              setSelectedGender("Any");
+              setSearch("");
+            }}
+            className="btn-secondary text-sm"
+          >
+            Reset All Filters
+          </button>
         </div>
       )}
     </div>

@@ -92,6 +92,9 @@ export default function GuidelinesPage() {
     <div className="max-w-4xl mx-auto space-y-10">
       {/* Header */}
       <div className="text-center">
+        <span className="inline-block px-4 py-1 rounded-full bg-coral/10 text-coral font-semibold text-sm mb-3">
+          Core Feature
+        </span>
         <h1 className="text-3xl font-bold text-textPrimary">📚 Adoption Guidelines</h1>
         <p className="text-textSec mt-2">
           Everything you need to know about adopting your new best friend

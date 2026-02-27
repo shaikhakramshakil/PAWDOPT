@@ -6,10 +6,10 @@ import { Heart, Sun, Moon, Menu } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/pets", label: "Adopt" },
-  { href: "/foster", label: "Foster" },
-  { href: "/stories", label: "Success Stories" },
+  { href: "/pets", label: "Browse Pets" },
+  { href: "/adopt/1", label: "Adoption Request" },
   { href: "/how-it-works", label: "Adoption Guidelines" },
+  { href: "/contact", label: "Contact Shelter" },
 ];
 
 export default function Navbar() {
