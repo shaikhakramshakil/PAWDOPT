@@ -13,7 +13,7 @@ const pet = {
   color: "Golden",
   location: "San Francisco, CA",
   listedDate: "Jan 15, 2026",
-  adoptionFee: 250,
+  adoptionFee: 5000,
   status: "Available",
   images: [
     "https://images.unsplash.com/photo-1552053831-71594a27632d?w=800&h=600&fit=crop",
@@ -162,7 +162,7 @@ export default function PetDetailPage() {
             {/* Fee */}
             <div className="mt-6 p-4 rounded-2xl bg-softYellow/50 text-center">
               <p className="text-xs text-textSec mb-1">Adoption Fee</p>
-              <p className="text-2xl font-bold text-textPrimary">${pet.adoptionFee}</p>
+              <p className="text-2xl font-bold text-textPrimary">₹{pet.adoptionFee.toLocaleString('en-IN')}</p>
             </div>
 
             {/* Actions */}
