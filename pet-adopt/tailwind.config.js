@@ -18,9 +18,9 @@ module.exports = {
         success:     "#8ED1A6",
         warning:     "#FFD6A5",
         danger:      "#FF8C94",
-        textPrimary: "#3A3A3A",
-        textSec:     "#7A7A7A",
-        textMuted:   "#B5B5B5",
+        textPrimary: "#2D2D2D",
+        textSec:     "#5A5A5A",
+        textMuted:   "#8A8A8A",
       },
       borderRadius: {
         "2xl": "20px",

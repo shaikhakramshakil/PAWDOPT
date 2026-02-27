@@ -21,7 +21,7 @@ export default function Navbar() {
         {/* Left – Logo */}
         <Link href="/" className="flex items-center gap-2">
           <span className="text-3xl">🐾</span>
-          <span className="text-2xl font-bold text-gradient">PawPal</span>
+          <span className="text-2xl font-bold text-gradient">Pawdopt</span>
         </Link>
 
         {/* Center – Nav Links */}

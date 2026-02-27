@@ -4,7 +4,7 @@ import Navbar from "@/components/layout/Navbar";
 import Sidebar from "@/components/layout/Sidebar";
 
 export const metadata: Metadata = {
-  title: "PawPal – Find Your Furry Friend",
+  title: "Pawdopt – Find Your Furry Friend",
   description: "Cute pastel pet adoption platform connecting shelters with loving families.",
 };
 
